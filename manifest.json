@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "DROPOUT Utilities",
+    "version": "0.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.dropout.tv/*"
+            ],
+            "js": [
+                "js/injection.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "js/base.js"
+    ]
+}
